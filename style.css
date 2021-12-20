@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(to right, rgb(88, 88, 146), rgb(68, 214, 214));
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(4, 18, 65);
+  border-radius: 20px;
+}
+
+#search {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(150, 161, 211);
+  border-radius: 20px 20px 0 0;
+}
+
+#search label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#results {
+  display: block;
+  padding: 10px;
+}
+
+#results .name {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
